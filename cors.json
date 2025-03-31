@@ -1,6 +1,6 @@
 [
     {
-      "origin": ["https:/localhost:3000"],
+      "origin": ["https://nexhome-voice-agent.onrender.com"],
       "method": ["GET"],
       "maxAgeSeconds": 3600
     }
