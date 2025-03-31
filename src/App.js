@@ -25,11 +25,7 @@ function App() {
     <Router>
       <Routes>
         {/* Public route */}
-        <Route path="/" element={
-          <div className="content-container">
-          <Navigate to="/login" replace />
-        </div>
-        }/>
+        <Route path="/" element={<LoginPage />} />
         <Route path="/login" element={<LoginPage />} />
         
         <Route path="/dashboard" element={

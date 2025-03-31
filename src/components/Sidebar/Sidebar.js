@@ -11,7 +11,7 @@ const Sidebar = () => {
     // Clear authentication state
     localStorage.removeItem('isAuthenticated');
     // Navigate to login page
-    navigate('/login');
+    navigate('/');
   };
 
   return (
